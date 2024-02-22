@@ -22,7 +22,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  flex: 1;
 
   background-color: #f3f354;
   width: 300px;
@@ -68,6 +67,56 @@ body {
   font-size: 32px;
   height: 40px;
   width: 40px;
+}
+
+
+.mainFlex {
+  display: flex;
+  flex-direction: row;
+  justify-self: right;
+  flex: 1;
+}
+
+.menuFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuItemFlex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 600px;
+}
+
+.addOrderFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.orderSummary {
+  border: 3px solid #56127b;
+  border-radius: 24px;
+  width: 500px;
+}
+
+.quantityHolder {
+  border: 2px solid #56127b;
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+#title {
+  align-self: center;
+  justify-self: center;
+  flex: 1;
 }
 
 /* Home page */
@@ -205,3 +254,4 @@ main {
   flex-direction: row;
   float: right;
 }
+
