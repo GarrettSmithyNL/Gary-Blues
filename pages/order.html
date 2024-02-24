@@ -1,3 +1,5 @@
+ <!-- Order page -->
+<!-- Written by: Rodney Stead, Garrett Smith, Zachary Ropson -->
  <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,6 +18,7 @@
     />
   </head>
   <body>
+    <!-- Side Nav Bar Menu -->
     <div class="bodyFlex">
       <nav class="navFlex">
         <img src="../pictures/Gary-Blue.svg" />
@@ -47,9 +50,12 @@
           </a>
         </div>
       </nav>
-
+       <!-- Page Title -->
       <h1 class = "orderTitle" id="#title">Gary Blues Restaurant</h1>
       <main class="mainFlex">
+
+        <!-- This section contains the names and pricing of each order item, along with the plus and minus buttons
+        to change order quantity inside of the quantity holders -->
         <div class="menuFlex">
           <div class="menuItemFlex">
             <p id="menu-holder-1">Gary Blue Burger</p>
@@ -242,6 +248,8 @@
             </div>
           </div>
         </div>
+        <!-- This is for the order summary box, as displayed to the right of the order items,
+        as you add or decrease items the box will change accordiningly -->
         <div class="orderSummary">
           <h2>Order Summary</h2>
           <h3 style = "margin-top: -30px">Order #:</h3>
@@ -253,6 +261,7 @@
           </div>
       </div>
       </main>
+      <!-- Not a programmed button, simplily for show -->
       <footer id = "orderButtonContainer">
           <div id = "orderSubmitButton">
             <h3 >Submit</h3>
